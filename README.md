@@ -1,13 +1,17 @@
 vogl
 =============
 
+#### UPDATE ####
+
+November 22, 2017: ValveSoftware/vogl has been forked into plohrmann/vogl in order to allow continued maintenance and to allow merging of community contributions. Please report issues and submit pull requests to the new repository.
+
 #### NOTE ####
 
 April 16, 2014: Vogl history has been completely and utterly trounced. The original repository had an entire chroot build system that most folks weren't interested in. A few contributors (thanks Carl & Sir Anthony) took the time to build a much smaller source only vogl repository which we've replaced the original one with.
 
 A separate chroot repository (which will build this source repository) is now here:
 
-https://bitbucket.org/raddebugger/vogl_chroot
+https://bitbucket.org/raddebugger/old_vogl_chroot
 
 ## Warning ##
 
@@ -17,7 +21,7 @@ This project is alpha^2. If you are up for suffering through a bit of pain with 
 
 The chroot configuration script should be a good reference for vogl dependencies. It is located here:
 
-https://bitbucket.org/raddebugger/vogl_chroot/src/master/bin/chroot_configure.sh?at=master
+https://bitbucket.org/raddebugger/old_vogl_chroot/src/master/bin/chroot_configure.sh?at=master
 
 The build dependencies for ubuntu (14.04) can be installed using the following:
 ```
@@ -91,7 +95,7 @@ VOGL_CMD_LINE="--vogl_tracefile vogltrace.glxspheres64.bin" LD_PRELOAD=$(readlin
 
 For capturing Steam games, please see the vogl_trace.sh script in the chroot repository:
 
-https://bitbucket.org/raddebugger/vogl_chroot/src/master/bin/src/sl.cpp?at=master
+https://bitbucket.org/raddebugger/old_vogl_chroot/src/master/bin/src/sl.cpp?at=master
 
 We are currently working on making it much easier to launch and profile Steam apps.
 
@@ -109,13 +113,14 @@ or launch `vogleditor64` and open trace file.
 
 ## Vogl Dev List ##
 
-  http://lists.voglproj.com/listinfo.cgi/dev-voglproj.com
+  http://lists.voglproj.com/listinfo.cgi/dev-voglproj.com (no longer available)
 
 ## Useful Links ##
 
 Vogl Wiki
 
-* https://github.com/ValveSoftware/vogl/wiki
+* Current: http://github.com/plohrmann/vogl/wiki
+* Original: https://github.com/ValveSoftware/vogl/wiki
 
 OpenGL documentation/references
 
